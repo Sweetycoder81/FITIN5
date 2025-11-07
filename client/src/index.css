@@ -1,0 +1,173 @@
+:root {
+  --primary-color: #2563eb; /* blue-600 */
+  --secondary-color: #16a34a; /* green-600 */
+  --accent-color: #22c55e; /* green-500 */
+  --success-color: #22c55e;
+  --warning-color: #f59e0b;
+  --danger-color: #ef4444;
+  --light-color: #f8fafc; /* slate-50 */
+  --dark-color: #0f172a; /* slate-900 */
+  --gray-color: #64748b; /* slate-500 */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  border: none;
+  box-shadow: 0 6px 14px rgba(37,99,235,0.25);
+}
+
+.btn-primary:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+/* Custom Classes */
+.hero-section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.class-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.membership-card {
+  height: 100%;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.membership-card.featured {
+  transform: scale(1.05);
+  border: 2px solid var(--accent-color);
+}
+
+.membership-price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.popular-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.class-category-badge, .trainer-specialization {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(34,197,94,0.1);
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.footer {
+  background-color: var(--dark-color);
+  color: white;
+  padding: 50px 0 20px;
+}
+
+/* Auth Forms */
+.auth-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard */
+.dashboard-sidebar {
+  min-height: calc(100vh - 76px);
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-main {
+  min-height: calc(100vh - 76px);
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.stat-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.stat-card h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 60vh;
+    text-align: center;
+  }
+  
+  .section-padding {
+    padding: 50px 0;
+  }
+  
+  .membership-card.featured {
+    transform: none;
+    margin: 20px 0;
+  }
+}
