@@ -72,14 +72,6 @@ Minur_fitin5/
     └── server.js           # Server entry point
 ```
 
-## 🔐 Admin Access
-
-Default admin credentials (change these after first login):
-- **Email**: admin@fitin5.com
-- **Password**: Admin@123
-
-> **Important**: Change these credentials immediately after your first login.
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -131,4 +123,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-For any inquiries or support, please contact [your-email@example.com].
+For any inquiries or support, please contact shrutirudra246@gmail.com.
+
+## 🔐 Admin Access
+
+Default admin credentials:
+- **Email**: shrutirudra246@gmail.com
+- **Password**: shruti246
+
+> **Important**: Change these credentials immediately after your first login.
