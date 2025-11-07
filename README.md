@@ -123,12 +123,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-For any inquiries or support, please contact shrutirudra246@gmail.com.
+For any inquiries or support, please contact isyou0127@gmail.com.
 
 ## 🔐 Admin Access
 
 Default admin credentials:
-- **Email**: shrutirudra246@gmail.com
+- **Email**: you0127@gmail.com
 - **Password**: shruti246
 
 > **Important**: Change these credentials immediately after your first login.
