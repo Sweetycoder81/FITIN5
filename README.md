@@ -128,7 +128,7 @@ For any inquiries or support, please contact isyou0127@gmail.com.
 ## 🔐 Admin Access
 
 Default admin credentials:
-- **Email**: you0127@gmail.com
+- **Email**: isyou0127@gmail.com
 - **Password**: shruti246
 
 > **Important**: Change these credentials immediately after your first login.
